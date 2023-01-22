@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
             CampusAi -<br className="sm:block hidden" />{" "}
-            <span className="text-gradient text-6xl	">Educational Chatbot Integration</span>{" "}
+            <span className="text-gradient md:text-6xl sm:text-5xl	">Educational Chatbot Integration</span>{" "}
           </h1>
 
         </div>
@@ -26,8 +26,14 @@ const Hero = () => {
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Unlock Learning Opportunities on WhatsApp with Our Educational Chatbot Integration
         </p>
-        <div className=" md:mr-4 mr-0">
-          <GetStarted />
+        <div >
+          {/* <GetStarted /> */}
+          <a href='https://wa.link/yqgz7h' target="_blank">
+
+            <button type="button" className="text-black pt-3 pb-3 mt-6 bg-white via-cyan-500 to-cyan-600 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Connect to Our Educational Bot</button>
+
+          </a>
+
         </div>
       </div>
 
@@ -35,8 +41,7 @@ const Hero = () => {
         <img src={robot} alt="billing" className="w-[550px] h-[100%] relative z-[5]" />
 
         {/* gradient start */}
-        <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
-        <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
+        
         <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
         {/* gradient end */}
       </div>
