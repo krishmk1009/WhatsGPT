@@ -17,7 +17,7 @@ const Billing = () => (
         Utilize the Power of OpenAI to Explore everything from your place
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Our bot provides easy access to a wide range of educational resources including images, articles, and more. With just a simple query, you can access the information you need, saving you time and hassle.
+      With the option to receive responses in either text or image format, users have the flexibility to customize their experience to meet their needs. Whether you're looking for quick answers or engaging in conversation, WhtspGPT provides a seamless and reliable solution for all your communication needs.
       </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">

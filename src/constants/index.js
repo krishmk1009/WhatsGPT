@@ -30,16 +30,16 @@ export const features = [
   {
     id: "feature-2",
     icon: shield,
-    title: "Interactive learning",
+    title: "Flexible Interactions",
     content:
-      "The bot can provide interactive quizzes and exercises to help users test their understanding of the materials.",
+      "Enhance Your Communication Experience with Customizable Text or Image Output Options.",
   },
   {
     id: "feature-3",
     icon: star,
     title: "Available 24/7",
     content:
-      "The bot is available 24/7, providing users with access to information and learning materials at any time.",
+      "The bot is available 24/7, providing users with access to information and resources materials at any time.",
   },
 ];
 
