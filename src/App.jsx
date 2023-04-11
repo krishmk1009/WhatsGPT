@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import styles from './style'
+import { Crisp } from "crisp-sdk-web";
 
-import { Navbar, Hero,  Business, Billing, CardDeal,   CTA, Footer } from './components'
+import { Navbar, Hero, Business, Billing, CardDeal, CTA, Footer } from './components'
 // import Navbar from './components/Navbar'
 const App = () => {
+
+  useEffect(() => {
+    Crisp.configure("7a50efcc-caa5-429e-afc5-4fcc689a2cd2");
+  }, []);
   return (
 
     <div className="bg-primary w-full overflow-hidden">
@@ -24,10 +29,10 @@ const App = () => {
           <Business />
           <Billing />
           <CardDeal />
-          
+
           <CTA />
           <Footer />
-          
+
 
         </div>
       </div>
