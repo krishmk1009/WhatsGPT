@@ -1,13 +1,17 @@
+
 import React, { useEffect } from 'react';
 import styles from './style'
 import { Crisp } from "crisp-sdk-web";
 
+
+
 import { Navbar, Hero, Business, Billing, CardDeal, CTA, Footer } from './components'
-// import Navbar from './components/Navbar'
+
 const App = () => {
 
   useEffect(() => {
-    Crisp.configure("7a50efcc-caa5-429e-afc5-4fcc689a2cd2");
+    
+    Crisp.configure(import.meta.env.VITE_CRISP_WEBSITE_ID);
   }, []);
   return (
 
