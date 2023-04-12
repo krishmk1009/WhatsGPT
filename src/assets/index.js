@@ -1,6 +1,11 @@
 import bill from "./bill.png";
 
 import card from "./card.png";
+import ss2 from "./ss2.png"
+import ss3 from "./ss3.png"
+import ss4 from "./ss4.png"
+import ss5 from "./ss5.png"
+import profile from "./profile.jpg"
 
 
 import logo from "./logo.svg";
@@ -43,4 +48,9 @@ export {
   linkedin,
   twitter,
   qr,
+  ss2,
+  ss3,
+  ss4,
+  ss5,
+  profile
 };

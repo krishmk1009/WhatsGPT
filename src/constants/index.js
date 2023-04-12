@@ -14,9 +14,14 @@ export const navLinks = [
     title: "How to use ?",
   },
   {
+    id: "guidDocs",
+    title: "Documentation",
+  },
+  {
     id: "scan",
     title: "Scan",
   },
+
 ];
 
 export const features = [

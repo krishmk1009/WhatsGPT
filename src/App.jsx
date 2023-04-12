@@ -5,22 +5,26 @@ import { Crisp } from "crisp-sdk-web";
 
 
 
+
 import { Navbar, Hero, Business, Billing, CardDeal, CTA, Footer } from './components'
+import Docs1 from './pages/docs1';
 
 const App = () => {
 
-  useEffect(() => {
+  // useEffect(() => {
     
-    Crisp.configure(import.meta.env.VITE_CRISP_WEBSITE_ID);
-  }, []);
+  //   Crisp.configure(import.meta.env.VITE_CRISP_WEBSITE_ID);
+  // }, []);
   return (
 
     <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
+          
         </div>
       </div>
+      
 
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
@@ -40,7 +44,9 @@ const App = () => {
 
         </div>
       </div>
+     
     </div>
+    
   )
 }
 
