@@ -82,7 +82,7 @@ export const footerLinks = [
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: "/",
       },
       {
         name: "Terms & Services",
@@ -95,23 +95,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "/",
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "/",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "/docs1",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "/",
       },
     ],
   },
@@ -120,11 +120,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Contriubuter",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "https://github.com/krishmk1009",
       },
       {
         name: "wants to contribute",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "/",
       },
     ],
   },
