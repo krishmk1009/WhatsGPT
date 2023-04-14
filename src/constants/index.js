@@ -13,10 +13,7 @@ export const navLinks = [
     id: "docs",
     title: "How to use ?",
   },
-  {
-    id: "guidDocs",
-    title: "Documentation",
-  },
+  
   {
     id: "scan",
     title: "Scan",
@@ -89,7 +86,7 @@ export const footerLinks = [
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "/policy",
       },
     ],
   },

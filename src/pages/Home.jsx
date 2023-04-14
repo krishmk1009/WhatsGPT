@@ -1,16 +1,16 @@
 
 import React, { useEffect } from 'react';
-import styles from './style';
+import styles from '../style';
 import { Crisp } from "crisp-sdk-web";
 
 
 
 
 
-import { Navbar, Hero, Business, Billing, CardDeal, CTA, Footer } from './components'
-import Docs1 from './pages/docs1';
+import { Navbar, Hero, Business, Billing, CardDeal, CTA, Footer } from '../components'
+import Docs1 from '../pages/docs1';
 
-const App = () => {
+const Home = () => {
 
   useEffect(() => {
     
@@ -51,4 +51,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Home

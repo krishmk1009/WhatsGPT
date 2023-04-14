@@ -1,6 +1,6 @@
 import React from 'react'
 import { logo, profile, ss2, ss3, ss4, ss5 } from '../assets'
-import { Navbar } from '../components'
+import { Footer, Navbar } from '../components'
 
 
 
@@ -138,6 +138,7 @@ const Docs1 = () => {
 
                     </article>
                 </div>
+                <Footer />
             </main>
 
 
