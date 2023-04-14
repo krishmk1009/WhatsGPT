@@ -4,17 +4,19 @@ import styles from './style';
 import { Crisp } from "crisp-sdk-web";
 
 
-
-
-
 import { Navbar, Hero, Business, Billing, CardDeal, CTA, Footer } from './components'
-import Docs1 from './pages/docs1';
+
+
+
+
+
+
 
 const App = () => {
 
   useEffect(() => {
     
-    Crisp.configure(import.meta.env.VITE_CRISP_WEBSITE_ID);
+    Crisp.configure("7a50efcc-caa5-429e-afc5-4fcc689a2cd2");
   }, []);
   return (
 
