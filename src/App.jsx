@@ -2,9 +2,11 @@
 import React, { useEffect } from 'react';
 import styles from './style';
 import { Crisp } from "crisp-sdk-web";
+import { logo } from './assets';
 
 
 import { Navbar, Hero, Business, Billing, CardDeal, CTA, Footer } from './components'
+import Maintain from './pages/Maintain';
 
 
 
@@ -21,7 +23,9 @@ const App = () => {
   return (
 
     <div className="bg-primary w-full overflow-hidden">
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+    <Maintain />
+    <Footer />
+      {/* <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
           
@@ -37,16 +41,16 @@ const App = () => {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           {/* remove stats */}
-          <Business />
+          {/* <Business />
           <Billing />
           <CardDeal />
 
           <CTA />
-          <Footer />
+          <Footer /> */}
 
 
-        </div>
-      </div>
+        {/* </div>
+      </div> */} *
      
     </div>
     
