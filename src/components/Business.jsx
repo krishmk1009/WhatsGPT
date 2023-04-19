@@ -27,7 +27,7 @@ const Business = () => (
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       Get immediate and accurate answers to your questions with WhatspGPT. Say goodbye to wait time and hello to real-time conversations.
       </p>
-<a href="https://wa.link/yqgz7h" target="_blank"> 
+<a href="https://wa.link/f6zgdz" target="_blank"> 
       <button type="button" class="text-white bg-gradient-to-r mt-6 from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Start Chatting</button>
 
 </a>
