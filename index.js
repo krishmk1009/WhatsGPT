@@ -1,17 +1,15 @@
-import express from 'express';
-import path from 'path';
-
+const express = require('express');
+const path = require('path');
 const app = express();
-const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
-app.use(express.static('dist'));
+// Serve the static files from the React app
+app.use(express.static(path.join(__dirname, 'dist')));
 
-app.get('*', (req, res) => {
-    const filePath = path.resolve(__dirname, 'public', 'page.html');
-    res.sendFile(filePath);
-    
+// Handles any requests that don't match the above
+app.get('*', (req,res) =>{
+  res.sendFile(path.join(__dirname+'/dist/index.html'));
 });
 
-app.listen(3000, () => {
-  console.log('Server started on http://localhost:3000');
-});
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => console.log(`Server Running on Port: http://localhost:${PORT}`))
