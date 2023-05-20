@@ -7,6 +7,7 @@ import { logo } from './assets';
 
 import { Navbar, Hero, Business, Billing, CardDeal, CTA, Footer } from './components'
 import Maintain from './pages/Maintain';
+import Alert from './components/Alert';
 
 
 
@@ -25,8 +26,10 @@ const App = () => {
     <div className="bg-primary w-full overflow-hidden">
       {/* <Maintain />
       <Footer /> */}
+     
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
+        <Alert />
           <Navbar />
 
         </div>
