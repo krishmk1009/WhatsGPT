@@ -29,7 +29,7 @@ const App = () => {
      
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-        <Alert />
+{/*         <Alert />  this line is for showing the alert during the maintaince of the website */}
           <Navbar />
 
         </div>
